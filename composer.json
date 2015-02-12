@@ -1,0 +1,35 @@
+{
+    "name": "svpernova09/phergie-irc-plugin-react-nerdsdrinking",
+    "description": "Phergie plugin for Fetch the latest episode of the nerds drinking podcast.",
+    "keywords": [ "phergie", "irc", "bot", "plugin" ],
+    "license": "BSD-2-Clause",
+    "support": {
+        "email": "joe@joeferguson.me",
+        "irc": "irc://irc.freenode.net/nerdsdrinking",
+        "issues": "https://github.com/svpernova09/phergie-irc-plugin-react-nerdsdrinking/issues",
+        "source": "https://github.com/svpernova09/phergie-irc-plugin-react-nerdsdrinking"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "phergie/phergie-irc-bot-react": "~1",
+        "phergie/phergie-irc-plugin-react-command": "~1.0"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*",
+        "phake/phake": "2.0.0-beta2"
+    },
+    "suggest": {
+        "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phergie\\Irc\\Plugin\\React\\Nerdsdrinking\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phergie\\Irc\\Tests\\Plugin\\React\\Nerdsdrinking\\": "tests"
+        }
+    }
+}
