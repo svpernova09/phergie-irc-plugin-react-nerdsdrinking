@@ -58,8 +58,9 @@ class Plugin extends AbstractPlugin
      */
     public function handleCommand(Event $event, Queue $queue)
     {
-        $this->sendReply($event, $queue, array(
-           'Feed URL: ' . $this->feedUrl
-        ));
+        $channel = $event->getSource();
+        $message = 'Feed URL: ' . $this->feedUrl;
+
+        return $queue->ircPrivmsg($channel, $message);
     }
 }
