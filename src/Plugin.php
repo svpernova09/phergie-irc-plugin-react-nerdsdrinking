@@ -51,12 +51,12 @@ class Plugin extends AbstractPlugin
     }
 
     /**
+     * @param Event $event
+     * @param Queue $queue
      *
-     *
-     * @param \Phergie\Irc\Plugin\React\Command\CommandEvent $event
-     * @param \Phergie\Irc\Bot\React\EventQueueInterface $queue
+     * @return string
      */
-    public function handleCommand(Event $event, Queue $queue)
+    public function handleLatestCommand(Event $event, Queue $queue)
     {
         $channel = $event->getSource();
         $message = 'Feed URL: ' . $this->feedUrl;
