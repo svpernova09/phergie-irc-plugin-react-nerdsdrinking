@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "767e379952d844599a887c72e45761ea",
+    "hash": "361e9d60ddd1bec7a9dca47e7e55ef56",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -51,6 +51,50 @@
                 "event-emitter"
             ],
             "time": "2014-07-09 21:08:03"
+        },
+        {
+            "name": "guzzle/parser",
+            "version": "v3.9.2",
+            "target-dir": "Guzzle/Parser",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/parser.git",
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/parser/zipball/6874d171318a8e93eb6d224cf85e4678490b625c",
+                "reference": "6874d171318a8e93eb6d224cf85e4678490b625c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Guzzle\\Parser": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Interchangeable parsers used by Guzzle",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "URI Template",
+                "cookie",
+                "http",
+                "message",
+                "url"
+            ],
+            "time": "2014-02-05 18:29:46"
         },
         {
             "name": "monolog/monolog",
@@ -113,6 +157,131 @@
                 "psr-3"
             ],
             "time": "2013-07-28 22:38:30"
+        },
+        {
+            "name": "nojimage/twitter-text-php",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nojimage/twitter-text-php.git",
+                "reference": "2cf4d681f7cbe0a564fb8f32c423b35b85baae20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nojimage/twitter-text-php/zipball/2cf4d681f7cbe0a564fb8f32c423b35b85baae20",
+                "reference": "2cf4d681f7cbe0a564fb8f32c423b35b85baae20",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.8"
+            },
+            "require-dev": {
+                "php": ">=5.3.3",
+                "symfony/yaml": "*",
+                "twitter/twitter-text-conformance": "1.8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Twitter_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Takashi Nojima",
+                    "homepage": "http://php-tips.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Matt Sanford",
+                    "email": "matt@mzsanford.com",
+                    "homepage": "http://mzsanford.com"
+                },
+                {
+                    "name": "Mike Cochrane",
+                    "email": "mikec@mikenz.geek.nz",
+                    "homepage": "http://mikenz.geek.nz"
+                },
+                {
+                    "name": "Nick Pope",
+                    "email": "git@nickpope.me.uk",
+                    "homepage": "http://www.nickpope.me.uk"
+                }
+            ],
+            "description": "A library of PHP classes that provide auto-linking and extraction of usernames, lists, hashtags and URLs from tweets.",
+            "homepage": "https://github.com/nojimage/twitter-text-php",
+            "keywords": [
+                "autolink",
+                "extract",
+                "text",
+                "twitter"
+            ],
+            "time": "2014-02-28 15:18:45"
+        },
+        {
+            "name": "object-calisthenics/phpcs-calisthenics-rules",
+            "version": "dev-master",
+            "target-dir": "ObjectCalisthenics",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/object-calisthenics/phpcs-calisthenics-rules.git",
+                "reference": "51b3b42033530ee32e6dbe114eb1ade5f94fab92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/object-calisthenics/phpcs-calisthenics-rules/zipball/51b3b42033530ee32e6dbe114eb1ade5f94fab92",
+                "reference": "51b3b42033530ee32e6dbe114eb1ade5f94fab92",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.3",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "ObjectCalisthenics/Sniffs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@hotmail.com"
+                }
+            ],
+            "description": "PHP CodeSniffer Object Calisthenics rules/sniffs",
+            "homepage": "https://github.com/object-calisthenics/phpcs-calisthenics-rules",
+            "keywords": [
+                "code",
+                "coding",
+                "cs",
+                "phpcs",
+                "rule",
+                "rules",
+                "sniff",
+                "sniffer",
+                "sniffs",
+                "standard",
+                "standards",
+                "style"
+            ],
+            "time": "2014-12-17 13:40:08"
         },
         {
             "name": "phergie/phergie-irc-bot-react",
@@ -570,6 +739,50 @@
             "time": "2014-02-26 17:36:58"
         },
         {
+            "name": "react/http-client",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/http-client.git",
+                "reference": "9f5e634351ad7f82431afa0568798ad99ec20034"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/http-client/zipball/9f5e634351ad7f82431afa0568798ad99ec20034",
+                "reference": "9f5e634351ad7f82431afa0568798ad99ec20034",
+                "shasum": ""
+            },
+            "require": {
+                "evenement/evenement": "~2.0",
+                "guzzle/parser": "~3.0",
+                "php": ">=5.4.0",
+                "react/dns": "0.4.*",
+                "react/event-loop": "0.4.*",
+                "react/socket-client": "0.4.*",
+                "react/stream": "0.4.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "React\\HttpClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Asynchronous HTTP client library.",
+            "keywords": [
+                "http"
+            ],
+            "time": "2014-11-23 15:04:25"
+        },
+        {
             "name": "react/promise",
             "version": "v2.2.0",
             "source": {
@@ -743,6 +956,222 @@
                 "stream"
             ],
             "time": "2014-09-10 03:32:31"
+        },
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "1.5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "6f3e42d311b882b25b4d409d23a289f4d3b803d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/6f3e42d311b882b25b4d409d23a289f4d3b803d5",
+                "reference": "6f3e42d311b882b25b4d409d23a289f4d3b803d5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.1.2"
+            },
+            "suggest": {
+                "phpunit/php-timer": "dev-master"
+            },
+            "bin": [
+                "scripts/phpcs"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-phpcs-fixer": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "CodeSniffer.php",
+                    "CodeSniffer/CLI.php",
+                    "CodeSniffer/Exception.php",
+                    "CodeSniffer/File.php",
+                    "CodeSniffer/Report.php",
+                    "CodeSniffer/Reporting.php",
+                    "CodeSniffer/Sniff.php",
+                    "CodeSniffer/Tokens.php",
+                    "CodeSniffer/Reports/",
+                    "CodeSniffer/CommentParser/",
+                    "CodeSniffer/Tokenizers/",
+                    "CodeSniffer/DocGenerators/",
+                    "CodeSniffer/Standards/AbstractPatternSniff.php",
+                    "CodeSniffer/Standards/AbstractScopeSniff.php",
+                    "CodeSniffer/Standards/AbstractVariableSniff.php",
+                    "CodeSniffer/Standards/IncorrectPatternException.php",
+                    "CodeSniffer/Standards/Generic/Sniffs/",
+                    "CodeSniffer/Standards/MySource/Sniffs/",
+                    "CodeSniffer/Standards/PEAR/Sniffs/",
+                    "CodeSniffer/Standards/PSR1/Sniffs/",
+                    "CodeSniffer/Standards/PSR2/Sniffs/",
+                    "CodeSniffer/Standards/Squiz/Sniffs/",
+                    "CodeSniffer/Standards/Zend/Sniffs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "time": "2014-12-04 22:32:15"
+        },
+        {
+            "name": "wyrihaximus/phergie-dns",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/PhergieDns.git",
+                "reference": "579a601a5caac793f7f68453a4fde6085e3ac2ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/PhergieDns/zipball/579a601a5caac793f7f68453a4fde6085e3ac2ad",
+                "reference": "579a601a5caac793f7f68453a4fde6085e3ac2ad",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~1.0",
+                "php": ">=5.4.0",
+                "react/dns": "0.4.*"
+            },
+            "require-dev": {
+                "phake/phake": "~1.0",
+                "phergie/phergie-irc-plugin-react-command": "~1.0",
+                "phpunit/phpunit": "~4.0",
+                "vectorface/dunit": "dev-master"
+            },
+            "suggest": {
+                "phergie/phergie-irc-plugin-react-command": "Required if you want to make use of the command support"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\Phergie\\Plugin\\Dns\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Phergie plugin for Looking up IP's by hostnames",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "phergieplugin",
+                "plugin",
+                "react"
+            ],
+            "time": "2014-12-25 15:21:02"
+        },
+        {
+            "name": "wyrihaximus/phergie-http",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/PhergieHttp.git",
+                "reference": "0f655ac51b244ba081989917594cd6ea27cd9e87"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/PhergieHttp/zipball/0f655ac51b244ba081989917594cd6ea27cd9e87",
+                "reference": "0f655ac51b244ba081989917594cd6ea27cd9e87",
+                "shasum": ""
+            },
+            "require": {
+                "phergie/phergie-irc-bot-react": "~1.0",
+                "php": ">=5.4.0",
+                "react/http-client": "0.4.*",
+                "wyrihaximus/phergie-dns": "~2.1"
+            },
+            "require-dev": {
+                "phake/phake": "~1.0",
+                "phpunit/phpunit": "~4.0",
+                "vectorface/dunit": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\Phergie\\Plugin\\Http\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Phergie plugin for Provide HTTP functionality to other plugins",
+            "keywords": [
+                "bot",
+                "irc",
+                "phergie",
+                "phergieplugin",
+                "plugin",
+                "react"
+            ],
+            "time": "2014-12-25 15:48:40"
+        },
+        {
+            "name": "wyrihaximus/phergie-url",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/PhergieUrl.git",
+                "reference": "79adfdf30888717654fe198eb88f26885bc55488"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/PhergieUrl/zipball/79adfdf30888717654fe198eb88f26885bc55488",
+                "reference": "79adfdf30888717654fe198eb88f26885bc55488",
+                "shasum": ""
+            },
+            "require": {
+                "nojimage/twitter-text-php": "1.1.1",
+                "object-calisthenics/phpcs-calisthenics-rules": "~1.0",
+                "phergie/phergie-irc-bot-react": "~1.0",
+                "react/promise": "~1.0|~2.0",
+                "wyrihaximus/phergie-http": "~1.0|~2.0"
+            },
+            "require-dev": {
+                "phake/phake": "~1.0",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.0",
+                "vectorface/dunit": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\Phergie\\Plugin\\Url\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Phergie plugin for Display URL information about links",
+            "keywords": [
+                "bot",
+                "irc",
+                "plugin",
+                "react"
+            ],
+            "time": "2015-01-06 21:37:59"
         }
     ],
     "packages-dev": [
